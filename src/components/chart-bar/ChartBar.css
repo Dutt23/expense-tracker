@@ -20,6 +20,7 @@
 .chart-bar__fill {
   background-color: #4826b9;
   width: 100%;
+  /* property on which the transition should be applied, time, function(read more on this) */
   transition: all 0.3s ease-out;
 }
 
