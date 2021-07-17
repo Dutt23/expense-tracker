@@ -57,6 +57,7 @@ export default function ExpenseForm({ onSaveExpenseData, toggleExpenseForm }) {
   }
 
   return (
+    
     <form ref={expenseForm} onSubmit={onSubmit}>
       <div className="new-expense__controls">
         <div className="new-expense__control">
